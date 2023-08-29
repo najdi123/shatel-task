@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import styles from './profile.module.css'
+import styles from './signUp.module.css'
 
 export default function SignUp() {
   return (
