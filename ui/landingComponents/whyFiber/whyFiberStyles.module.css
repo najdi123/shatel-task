@@ -1,0 +1,25 @@
+.container {
+    margin: 4rem 10rem;
+}
+.title{
+    color: #4D13D1;
+    font-size: 1.2rem;
+    padding: 0 0 1rem;
+}
+.description{
+    font-size: 3rem;
+    padding: 0 0 2rem;
+    width: 70%;
+}
+.itemsWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+    .container {
+        margin: 2rem 3rem;
+    }
+    .itemsWrapper{
+        flex-direction: column;
+    }
+}
